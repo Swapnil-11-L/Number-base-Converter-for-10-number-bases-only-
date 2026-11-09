@@ -4,14 +4,6 @@ while True:
         break
     current_base = int(input("Which base is the number right now? "))
     number_base = int(input("Enter the number base you wanna convert in: "))
-    def lenght(n):
-        len_count = 0
-        while True:
-            result = n // 10
-            n = result
-            len_count += 1
-            if (result ==0):
-                return len_count
 
     def converter(n , number_bose):
         temp = n
